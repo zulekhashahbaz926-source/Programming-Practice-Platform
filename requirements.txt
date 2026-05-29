@@ -1,0 +1,4 @@
+bcrypt==4.0.1
+pyinstaller==6.5.0
+pytest==8.2.0
+customtkinter==5.2.2

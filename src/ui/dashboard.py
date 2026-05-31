@@ -1,19 +1,19 @@
 import customtkinter as ctk
 from typing import Callable
 
-class Dashboard(ctk.CTkFrame):
+class DashboardPage(ctk.CTkFrame):
     """Main dashboard view.
 
     Parameters
     ----------
-    master: ctk.CTk
-        Parent window.
-    navigate: Callable[[str], None]
-        Function to change view, expects view name.
+    parent: ctk.CTk
+        Parent container.
+    controller: App
+        Reference to the main application for navigation.
     """
-    def __init__(self, master, navigate: Callable[[str], None]):
-        super().__init__(master)
-        self.navigate = navigate
+    def __init__(self, parent, controller):
+        super().__init__(parent)
+        self.controller = controller
         self.configure(fg_color="transparent")
         self._build_sidebar()
         self._build_overview()
@@ -21,9 +21,9 @@ class Dashboard(ctk.CTkFrame):
     def _build_sidebar(self):
         sidebar = ctk.CTkFrame(self, width=200, corner_radius=0)
         sidebar.pack(side="left", fill="y")
-        btn_ex = ctk.CTkButton(sidebar, text="Exercises", command=lambda: self.navigate('exercise'))
-        btn_ch = ctk.CTkButton(sidebar, text="Challenges", command=lambda: self.navigate('challenge'))
-        btn_set = ctk.CTkButton(sidebar, text="Settings", command=lambda: self.navigate('settings'))
+        btn_ex = ctk.CTkButton(sidebar, text="Exercises", command=lambda: self.controller.show_frame("ExerciseView"))
+        btn_ch = ctk.CTkButton(sidebar, text="Challenges", command=lambda: self.controller.show_frame("Settings"))
+        btn_set = ctk.CTkButton(sidebar, text="Settings", command=lambda: self.controller.show_frame("Settings"))
         for btn in (btn_ex, btn_ch, btn_set):
             btn.pack(pady=10, padx=20, fill="x")
 
@@ -50,7 +50,6 @@ class Dashboard(ctk.CTkFrame):
         self.accuracy_label = ctk.CTkLabel(card3, text="0%", font=("Arial", 24))
         self.accuracy_label.pack()
 
-    # Public methods for UI controller to update stats
     def update_stats(self, completed: int, score: float, accuracy: float):
         self.completed_label.configure(text=str(completed))
         self.score_label.configure(text=f"{score:.1f}")

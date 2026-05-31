@@ -8,13 +8,19 @@ The UI layer imports **service** classes from ``src.core`` but does not contain
 any business logic – all operations are delegated to those services.
 """
 
+import sys
+from pathlib import Path
+project_root = Path(__file__).resolve().parents[2]
+if str(project_root) not in sys.path:
+    sys.path.append(str(project_root))
 import customtkinter as ctk
 from typing import Dict
 
 # Import UI pages – they are defined in sibling modules.
-from .dashboard import DashboardPage
-from .exercise_view import ExerciseViewPage
-from .settings import SettingsPage
+# Use absolute imports to support running this file as a script
+from src.ui.dashboard import DashboardPage
+from src.ui.exercise_view import ExerciseViewPage
+from src.ui.settings import SettingsPage
 
 
 class App(ctk.CTk):
@@ -104,5 +110,11 @@ class App(ctk.CTk):
 
 
 if __name__ == "__main__":
+    # Ensure the project root is on sys.path when executed directly
+    import sys
+    from pathlib import Path
+    project_root = Path(__file__).resolve().parents[2]
+    if str(project_root) not in sys.path:
+        sys.path.append(str(project_root))
     app = App()
     app.mainloop()

@@ -237,12 +237,14 @@ class AuthView(ctk.CTkFrame):
     def toggle_password_visibility(self):
         if self.show_password_var.get():
             self.password_entry.configure(show="")
-            if hasattr(self, "confirm_password_entry"):
-                self.confirm_password_entry.configure(show="")
+            confirm_entry = getattr(self, "confirm_password_entry", None)
+            if confirm_entry and confirm_entry.winfo_exists():
+                confirm_entry.configure(show="")
         else:
             self.password_entry.configure(show="*")
-            if hasattr(self, "confirm_password_entry"):
-                self.confirm_password_entry.configure(show="*")
+            confirm_entry = getattr(self, "confirm_password_entry", None)
+            if confirm_entry and confirm_entry.winfo_exists():
+                confirm_entry.configure(show="*")
 
     def login_user(self):
         try:

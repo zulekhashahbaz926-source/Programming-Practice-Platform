@@ -37,17 +37,9 @@ python main.py
 
 ## Project Structure
 
-- `core/` — application engine, theme manager, logging
-- `auth/` — authentication views and controllers
-- `dashboard/` — dashboard UI and navigation
-- `modules/` — practice modules and content
-- `database/` — SQLite schema and seed data
-- `utils/` — validators and UI helpers
-- `tests/` — unit tests
-- `docs/` — report outline and academic deliverables
-- `microservice/` — FastAPI microservice exposing module and commit data
-- `config/` — application settings
-- `logs/` — runtime logs
+ - `docs/` — report outline and academic deliverables (UML diagrams now in `docs/uml/`)
+ - `microservice/` — FastAPI microservice exposing module and commit data
+ - `microservices/` — suggested microservices for Weather Dashboard (stubs in `microservices/`)
 
 ## Testing
 

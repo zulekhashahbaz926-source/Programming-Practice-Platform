@@ -37,7 +37,7 @@ python main.py
 
 ## Project Structure
 
- - `docs/` — report outline and academic deliverables (UML diagrams now in `docs/uml/`)
+ - `docs/` — report outline and academic deliverables
  - `microservice/` — FastAPI microservice exposing module and commit data
  - `microservices/` — suggested microservices for Weather Dashboard (stubs in `microservices/`)
 

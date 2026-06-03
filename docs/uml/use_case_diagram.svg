@@ -1,0 +1,86 @@
+<svg width="100%" viewBox="0 0 680 680" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Use Case Diagram - Programming Practice Platform</title>
+<desc>Use Case Diagram showing Student and Admin actors with their interactions</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+  <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<text style="font:500 15px sans-serif;fill:#1E40AF" x="340" y="28" text-anchor="middle">Use Case Diagram — Programming Practice Platform</text>
+
+<!-- System boundary -->
+<rect x="160" y="40" width="370" height="580" rx="12" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="8,4"/>
+<text style="font:500 12px sans-serif;fill:#64748B" x="345" y="60" text-anchor="middle">Programming Practice Platform</text>
+
+<!-- Student Actor (left) -->
+<ellipse cx="80" cy="200" rx="18" ry="18" fill="none" stroke="#1E40AF" stroke-width="2"/>
+<line x1="80" y1="218" x2="80" y2="265" stroke="#1E40AF" stroke-width="2"/>
+<line x1="55" y1="238" x2="105" y2="238" stroke="#1E40AF" stroke-width="2"/>
+<line x1="80" y1="265" x2="55" y2="295" stroke="#1E40AF" stroke-width="2"/>
+<line x1="80" y1="265" x2="105" y2="295" stroke="#1E40AF" stroke-width="2"/>
+<text style="font:500 12px sans-serif;fill:#1E40AF" x="80" y="312" text-anchor="middle">Student</text>
+
+<!-- Admin Actor (right) -->
+<ellipse cx="600" cy="200" rx="18" ry="18" fill="none" stroke="#7C3AED" stroke-width="2"/>
+<line x1="600" y1="218" x2="600" y2="265" stroke="#7C3AED" stroke-width="2"/>
+<line x1="575" y1="238" x2="625" y2="238" stroke="#7C3AED" stroke-width="2"/>
+<line x1="600" y1="265" x2="575" y2="295" stroke="#7C3AED" stroke-width="2"/>
+<line x1="600" y1="265" x2="625" y2="295" stroke="#7C3AED" stroke-width="2"/>
+<text style="font:500 12px sans-serif;fill:#7C3AED" x="600" y="312" text-anchor="middle">Admin</text>
+
+<!-- Use Cases (ellipses) -->
+<!-- Student use cases -->
+<ellipse cx="345" cy="100" rx="90" ry="22" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+<text style="font:400 12px sans-serif;fill:#1e3a8a" x="345" y="104" text-anchor="middle" dominant-baseline="central">Register / Login</text>
+
+<ellipse cx="295" cy="175" rx="90" ry="22" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+<text style="font:400 12px sans-serif;fill:#1e3a8a" x="295" y="179" text-anchor="middle" dominant-baseline="central">Browse Problems</text>
+
+<ellipse cx="345" cy="255" rx="90" ry="22" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+<text style="font:400 12px sans-serif;fill:#1e3a8a" x="345" y="259" text-anchor="middle" dominant-baseline="central">Write &amp; Run Code</text>
+
+<ellipse cx="295" cy="335" rx="90" ry="22" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+<text style="font:400 12px sans-serif;fill:#1e3a8a" x="295" y="339" text-anchor="middle" dominant-baseline="central">Submit Solution</text>
+
+<ellipse cx="345" cy="415" rx="90" ry="22" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+<text style="font:400 12px sans-serif;fill:#1e3a8a" x="345" y="419" text-anchor="middle" dominant-baseline="central">Take Quiz</text>
+
+<ellipse cx="295" cy="495" rx="90" ry="22" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+<text style="font:400 12px sans-serif;fill:#1e3a8a" x="295" y="499" text-anchor="middle" dominant-baseline="central">View Progress</text>
+
+<ellipse cx="345" cy="570" rx="90" ry="22" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+<text style="font:400 12px sans-serif;fill:#1e3a8a" x="345" y="574" text-anchor="middle" dominant-baseline="central">Earn Badges</text>
+
+<!-- Admin use cases -->
+<ellipse cx="445" cy="175" rx="90" ry="22" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.5"/>
+<text style="font:400 12px sans-serif;fill:#4c1d95" x="445" y="179" text-anchor="middle" dominant-baseline="central">Manage Problems</text>
+
+<ellipse cx="445" cy="335" rx="90" ry="22" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.5"/>
+<text style="font:400 12px sans-serif;fill:#4c1d95" x="445" y="339" text-anchor="middle" dominant-baseline="central">Manage Quizzes</text>
+
+<ellipse cx="445" cy="415" rx="90" ry="22" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.5"/>
+<text style="font:400 12px sans-serif;fill:#4c1d95" x="445" y="419" text-anchor="middle" dominant-baseline="central">View All Stats</text>
+
+<!-- Student connections -->
+<line x1="98" y1="193" x2="254" y2="104" stroke="#2563EB" stroke-width="1" opacity="0.7"/>
+<line x1="98" y1="200" x2="205" y2="175" stroke="#2563EB" stroke-width="1" opacity="0.7"/>
+<line x1="98" y1="207" x2="254" y2="248" stroke="#2563EB" stroke-width="1" opacity="0.7"/>
+<line x1="98" y1="210" x2="205" y2="328" stroke="#2563EB" stroke-width="1" opacity="0.7"/>
+<line x1="98" y1="215" x2="254" y2="408" stroke="#2563EB" stroke-width="1" opacity="0.7"/>
+<line x1="98" y1="218" x2="205" y2="490" stroke="#2563EB" stroke-width="1" opacity="0.7"/>
+<line x1="98" y1="222" x2="254" y2="565" stroke="#2563EB" stroke-width="1" opacity="0.7"/>
+
+<!-- Admin connections -->
+<line x1="582" y1="193" x2="535" y2="175" stroke="#7C3AED" stroke-width="1" opacity="0.7"/>
+<line x1="582" y1="200" x2="535" y2="330" stroke="#7C3AED" stroke-width="1" opacity="0.7"/>
+<line x1="582" y1="207" x2="535" y2="410" stroke="#7C3AED" stroke-width="1" opacity="0.7"/>
+
+<!-- Include relationship: Submit → Evaluate -->
+<line x1="390" y1="280" x2="390" y2="313" stroke="#059669" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+<text style="font:400 10px sans-serif;fill:#059669" x="396" y="300">&lt;&lt;include&gt;&gt;</text>
+
+<!-- Extend: View Progress → Earn Badges -->
+<line x1="330" y1="517" x2="330" y2="548" stroke="#D97706" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+<text style="font:400 10px sans-serif;fill:#D97706" x="336" y="534">&lt;&lt;extend&gt;&gt;</text>
+</svg>

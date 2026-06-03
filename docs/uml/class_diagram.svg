@@ -1,0 +1,113 @@
+<svg width="100%" viewBox="0 0 680 760" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Class Diagram - Programming Practice Platform</title>
+<desc>UML Class Diagram showing main classes: User, Problem, Quiz, Attempt, Progress and their relationships</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+  <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+<marker id="diamond" viewBox="0 0 12 12" refX="6" refY="6" markerWidth="8" markerHeight="8" orient="auto">
+  <polygon points="6,1 11,6 6,11 1,6" fill="none" stroke="context-stroke" stroke-width="1.2"/>
+</marker>
+</defs>
+
+<!-- Title -->
+<text style="font:500 15px sans-serif;fill:#1E40AF" x="340" y="30" text-anchor="middle">Class Diagram — Programming Practice Platform</text>
+
+<!-- ── User Class ── -->
+<rect x="40" y="50" width="180" height="150" rx="4" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+<rect x="40" y="50" width="180" height="30" rx="4" fill="#2563EB"/>
+<text style="font:500 13px sans-serif;fill:#fff" x="130" y="70" text-anchor="middle" dominant-baseline="central">User</text>
+<line x1="40" y1="80" x2="220" y2="80" stroke="#2563EB" stroke-width="0.8"/>
+<text style="font:400 11px sans-serif;fill:#1e3a8a" x="52" y="100">- user_id: int</text>
+<text style="font:400 11px sans-serif;fill:#1e3a8a" x="52" y="116">- username: str</text>
+<text style="font:400 11px sans-serif;fill:#1e3a8a" x="52" y="132">- email: str</text>
+<text style="font:400 11px sans-serif;fill:#1e3a8a" x="52" y="148">- password_hash: str</text>
+<line x1="40" y1="158" x2="220" y2="158" stroke="#93C5FD" stroke-width="0.6"/>
+<text style="font:400 11px sans-serif;fill:#1e3a8a" x="52" y="174">+ login(): bool</text>
+<text style="font:400 11px sans-serif;fill:#1e3a8a" x="52" y="190">+ register(): bool</text>
+
+<!-- ── Problem Class ── -->
+<rect x="460" y="50" width="190" height="170" rx="4" fill="#F0FDF4" stroke="#059669" stroke-width="1.5"/>
+<rect x="460" y="50" width="190" height="30" rx="4" fill="#059669"/>
+<text style="font:500 13px sans-serif;fill:#fff" x="555" y="70" text-anchor="middle" dominant-baseline="central">Problem</text>
+<line x1="460" y1="80" x2="650" y2="80" stroke="#059669" stroke-width="0.8"/>
+<text style="font:400 11px sans-serif;fill:#064e3b" x="472" y="100">- problem_id: int</text>
+<text style="font:400 11px sans-serif;fill:#064e3b" x="472" y="116">- title: str</text>
+<text style="font:400 11px sans-serif;fill:#064e3b" x="472" y="132">- description: str</text>
+<text style="font:400 11px sans-serif;fill:#064e3b" x="472" y="148">- difficulty: str</text>
+<text style="font:400 11px sans-serif;fill:#064e3b" x="472" y="164">- category: str</text>
+<line x1="460" y1="174" x2="650" y2="174" stroke="#6EE7B7" stroke-width="0.6"/>
+<text style="font:400 11px sans-serif;fill:#064e3b" x="472" y="190">+ get_test_cases(): list</text>
+<text style="font:400 11px sans-serif;fill:#064e3b" x="472" y="206">+ validate(): bool</text>
+
+<!-- ── Attempt Class (center) ── -->
+<rect x="240" y="300" width="200" height="170" rx="4" fill="#FFFBEB" stroke="#D97706" stroke-width="1.5"/>
+<rect x="240" y="300" width="200" height="30" rx="4" fill="#D97706"/>
+<text style="font:500 13px sans-serif;fill:#fff" x="340" y="320" text-anchor="middle" dominant-baseline="central">Attempt</text>
+<line x1="240" y1="330" x2="440" y2="330" stroke="#D97706" stroke-width="0.8"/>
+<text style="font:400 11px sans-serif;fill:#78350f" x="252" y="350">- attempt_id: int</text>
+<text style="font:400 11px sans-serif;fill:#78350f" x="252" y="366">- user_id: int</text>
+<text style="font:400 11px sans-serif;fill:#78350f" x="252" y="382">- problem_id: int</text>
+<text style="font:400 11px sans-serif;fill:#78350f" x="252" y="398">- submitted_code: str</text>
+<text style="font:400 11px sans-serif;fill:#78350f" x="252" y="414">- score: int</text>
+<line x1="240" y1="422" x2="440" y2="422" stroke="#FCD34D" stroke-width="0.6"/>
+<text style="font:400 11px sans-serif;fill:#78350f" x="252" y="438">+ evaluate(): int</text>
+<text style="font:400 11px sans-serif;fill:#78350f" x="252" y="454">+ submit(): void</text>
+
+<!-- ── Quiz Class ── -->
+<rect x="40" y="300" width="170" height="160" rx="4" fill="#FDF2F8" stroke="#7C3AED" stroke-width="1.5"/>
+<rect x="40" y="300" width="170" height="30" rx="4" fill="#7C3AED"/>
+<text style="font:500 13px sans-serif;fill:#fff" x="125" y="320" text-anchor="middle" dominant-baseline="central">Quiz</text>
+<line x1="40" y1="330" x2="210" y2="330" stroke="#7C3AED" stroke-width="0.8"/>
+<text style="font:400 11px sans-serif;fill:#4c1d95" x="52" y="350">- quiz_id: int</text>
+<text style="font:400 11px sans-serif;fill:#4c1d95" x="52" y="366">- title: str</text>
+<text style="font:400 11px sans-serif;fill:#4c1d95" x="52" y="382">- difficulty: str</text>
+<text style="font:400 11px sans-serif;fill:#4c1d95" x="52" y="398">- time_limit: int</text>
+<line x1="40" y1="406" x2="210" y2="406" stroke="#C4B5FD" stroke-width="0.6"/>
+<text style="font:400 11px sans-serif;fill:#4c1d95" x="52" y="422">+ start(): void</text>
+<text style="font:400 11px sans-serif;fill:#4c1d95" x="52" y="438">+ grade(): int</text>
+<text style="font:400 11px sans-serif;fill:#4c1d95" x="52" y="454">+ time_expired(): bool</text>
+
+<!-- ── Progress Class ── -->
+<rect x="470" y="300" width="170" height="155" rx="4" fill="#F0F9FF" stroke="#0891B2" stroke-width="1.5"/>
+<rect x="470" y="300" width="170" height="30" rx="4" fill="#0891B2"/>
+<text style="font:500 13px sans-serif;fill:#fff" x="555" y="320" text-anchor="middle" dominant-baseline="central">Progress</text>
+<line x1="470" y1="330" x2="640" y2="330" stroke="#0891B2" stroke-width="0.8"/>
+<text style="font:400 11px sans-serif;fill:#0c4a6e" x="482" y="350">- progress_id: int</text>
+<text style="font:400 11px sans-serif;fill:#0c4a6e" x="482" y="366">- user_id: int</text>
+<text style="font:400 11px sans-serif;fill:#0c4a6e" x="482" y="382">- solved_count: int</text>
+<text style="font:400 11px sans-serif;fill:#0c4a6e" x="482" y="398">- total_score: int</text>
+<line x1="470" y1="406" x2="640" y2="406" stroke="#7DD3FC" stroke-width="0.6"/>
+<text style="font:400 11px sans-serif;fill:#0c4a6e" x="482" y="422">+ update(): void</text>
+<text style="font:400 11px sans-serif;fill:#0c4a6e" x="482" y="438">+ get_stats(): dict</text>
+<text style="font:400 11px sans-serif;fill:#0c4a6e" x="482" y="454">+ get_badges(): list</text>
+
+<!-- Relationships -->
+<!-- User → Attempt -->
+<line x1="130" y1="200" x2="130" y2="270" stroke="#6B7280" stroke-width="1.2"/>
+<line x1="130" y1="270" x2="300" y2="300" stroke="#6B7280" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text style="font:400 10px sans-serif;fill:#6B7280" x="140" y="260">1</text>
+<text style="font:400 10px sans-serif;fill:#6B7280" x="295" y="295">*</text>
+
+<!-- Problem → Attempt -->
+<line x1="555" y1="220" x2="555" y2="270" stroke="#6B7280" stroke-width="1.2"/>
+<line x1="555" y1="270" x2="410" y2="300" stroke="#6B7280" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text style="font:400 10px sans-serif;fill:#6B7280" x="560" y="260">1</text>
+<text style="font:400 10px sans-serif;fill:#6B7280" x="418" y="295">*</text>
+
+<!-- User → Progress -->
+<line x1="220" y1="125" x2="460" y2="125" stroke="#6B7280" stroke-width="1.2" stroke-dasharray="5,3"/>
+<line x1="460" y1="125" x2="460" y2="375" stroke="#6B7280" stroke-width="1.2" stroke-dasharray="5,3"/>
+<line x1="460" y1="375" x2="470" y2="375" stroke="#6B7280" stroke-width="1.2" stroke-dasharray="5,3" marker-end="url(#arrow)"/>
+<text style="font:400 10px sans-serif;fill:#6B7280" x="340" y="118">tracks</text>
+
+<!-- User → Quiz -->
+<line x1="100" y1="200" x2="100" y2="300" stroke="#6B7280" stroke-width="1.2" stroke-dasharray="5,3" marker-end="url(#arrow)"/>
+<text style="font:400 10px sans-serif;fill:#6B7280" x="104" y="255">takes</text>
+
+<!-- Legend -->
+<line x1="40" y1="610" x2="90" y2="610" stroke="#6B7280" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text style="font:400 11px sans-serif;fill:#374151" x="96" y="614">Association</text>
+<line x1="200" y1="610" x2="250" y2="610" stroke="#6B7280" stroke-width="1.2" stroke-dasharray="5,3" marker-end="url(#arrow)"/>
+<text style="font:400 11px sans-serif;fill:#374151" x="256" y="614">Dependency</text>
+</svg>

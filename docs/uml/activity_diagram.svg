@@ -1,8 +1,13 @@
 <svg width="100%" viewBox="0 0 680 480" role="img" xmlns="http://www.w3.org/2000/svg">
-<title>Activity Diagram - Submit & Evaluate</title>
+<title>Activity Diagram - Submit and Evaluate</title>
 <desc>Activity diagram for code submission and evaluation flow</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+  <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
 
-<text style="font:500 15px sans-serif;fill:#1E40AF" x="340" y="30" text-anchor="middle">Activity Diagram — Submit & Evaluate</text>
+<text style="font:500 15px sans-serif;fill:#1E40AF" x="340" y="30" text-anchor="middle">Activity Diagram - Submit and Evaluate</text>
 
 <!-- Start -->
 <circle cx="80" cy="90" r="18" fill="#059669"/>
@@ -10,13 +15,13 @@
 
 <!-- Steps -->
 <rect x="140" y="60" width="420" height="40" rx="6" fill="#EFF6FF" stroke="#2563EB"/>
-<text style="font:400 12px sans-serif;fill:#1e3a8a" x="350" y="86" text-anchor="middle">Open Problem → Write Code → Submit</text>
+<text style="font:400 12px sans-serif;fill:#1e3a8a" x="350" y="86" text-anchor="middle">Open Problem, Write Code, Submit</text>
 
 <rect x="160" y="130" width="400" height="40" rx="6" fill="#FFFBEB" stroke="#D97706"/>
 <text style="font:400 12px sans-serif;fill:#78350f" x="360" y="156" text-anchor="middle">Server: Evaluate Code (Run Tests)</text>
 
 <rect x="160" y="200" width="400" height="40" rx="6" fill="#F0F9FF" stroke="#0891B2"/>
-<text style="font:400 12px sans-serif;fill:#0c4a6e" x="360" y="226" text-anchor="middle">Save Attempt & Update Progress</text>
+<text style="font:400 12px sans-serif;fill:#0c4a6e" x="360" y="226" text-anchor="middle">Save Attempt and Update Progress</text>
 
 <rect x="160" y="270" width="400" height="40" rx="6" fill="#FDF2F8" stroke="#7C3AED"/>
 <text style="font:400 12px sans-serif;fill:#4c1d95" x="360" y="296" text-anchor="middle">Display Result / Feedback</text>

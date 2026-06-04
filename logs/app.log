@@ -1,0 +1,130 @@
+2026-05-24 17:42:38,262 INFO Zyntriva New account created: tester
+2026-05-24 17:42:38,266 INFO Zyntriva New account created: tester
+2026-05-24 17:42:38,266 INFO Zyntriva Authenticated user: tester
+2026-05-24 17:42:38,268 INFO Zyntriva New account created: tester
+2026-05-24 17:43:35,874 INFO Zyntriva Seeded default administrator user.
+2026-05-24 17:43:35,946 INFO Zyntriva Seeded quizzes and learning module data.
+2026-05-24 17:43:36,000 INFO Zyntriva Seeded commit history.
+2026-05-24 17:43:36,039 INFO Zyntriva Seeded notifications.
+2026-05-24 17:43:36,059 INFO Zyntriva Seeded peer review records.
+2026-05-24 17:43:36,086 INFO Zyntriva Seeded test records.
+2026-05-24 17:45:40,830 INFO Zyntriva New account created: tester
+2026-05-24 17:45:40,843 INFO Zyntriva New account created: tester
+2026-05-24 17:45:40,843 INFO Zyntriva Authenticated user: tester
+2026-05-24 17:45:40,846 INFO Zyntriva New account created: tester
+2026-05-24 17:52:51,733 WARNING Zyntriva Login failed: User not found.
+2026-05-24 17:52:52,525 WARNING Zyntriva Login failed: User not found.
+2026-05-24 17:52:55,453 WARNING Zyntriva Login failed: User not found.
+2026-05-24 17:54:01,066 WARNING Zyntriva Login failed: User not found.
+2026-05-24 17:55:29,054 WARNING Zyntriva Login failed: Invalid password.
+2026-05-24 17:58:45,735 WARNING Zyntriva Login failed: Invalid password.
+2026-05-25 16:44:12,772 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:14,007 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:15,274 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:15,526 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:15,706 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:15,871 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:16,047 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:16,225 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:16,409 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:16,587 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:16,765 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:16,936 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:17,112 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:17,289 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:17,467 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:17,646 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:17,840 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:18,001 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:18,194 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:18,380 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:18,563 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:18,754 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:18,945 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:19,113 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:19,304 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:20,671 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:20,927 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:23,140 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:23,384 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:23,560 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:23,739 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:23,902 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:24,104 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:44:24,265 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:48:44,452 INFO Zyntriva New account created: tester
+2026-05-25 16:48:44,462 INFO Zyntriva New account created: tester
+2026-05-25 16:48:44,463 INFO Zyntriva Authenticated user: tester
+2026-05-25 16:48:44,468 INFO Zyntriva New account created: tester
+2026-05-25 16:50:04,419 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:50:04,680 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:50:04,856 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:50:05,201 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:50:05,447 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:50:05,626 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:50:05,827 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:50:06,036 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:50:06,215 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:50:06,393 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:58:31,816 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:34,241 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:35,862 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:36,102 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:36,273 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:36,476 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:36,650 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:36,837 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:37,024 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:37,213 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:37,385 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:37,558 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:37,792 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:37,979 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:38,180 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:38,368 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:38,559 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:38,731 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:38,932 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:39,104 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:39,277 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:40,145 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:40,403 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:40,588 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 16:58:58,042 WARNING Zyntriva Login failed: User not found.
+2026-05-25 16:59:08,053 WARNING Zyntriva Registration failed: Full name is required.
+2026-05-25 16:59:08,783 WARNING Zyntriva Registration failed: Full name is required.
+2026-05-25 16:59:09,015 WARNING Zyntriva Registration failed: Full name is required.
+2026-05-25 16:59:09,218 WARNING Zyntriva Registration failed: Full name is required.
+2026-05-25 16:59:09,389 WARNING Zyntriva Registration failed: Full name is required.
+2026-05-25 16:59:09,577 WARNING Zyntriva Registration failed: Full name is required.
+2026-05-25 16:59:09,891 WARNING Zyntriva Registration failed: Full name is required.
+2026-05-25 16:59:50,080 WARNING Zyntriva Registration failed: Username must be at least 4 characters and contain only letters or numbers.
+2026-05-25 17:00:14,327 WARNING Zyntriva Registration failed: Please enter a valid email address.
+2026-05-25 17:00:16,657 WARNING Zyntriva Registration failed: Please enter a valid email address.
+2026-05-25 17:00:28,388 WARNING Zyntriva Login failed: User not found.
+2026-05-25 17:01:06,251 WARNING Zyntriva Registration failed: Please enter a valid email address.
+2026-05-25 17:01:18,623 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 17:01:20,501 WARNING Zyntriva Registration failed: Password must be at least 8 characters.
+2026-05-25 17:01:45,578 INFO Zyntriva New account created: admins
+2026-05-25 17:01:58,565 WARNING Zyntriva Login failed: Invalid password.
+2026-05-25 17:02:05,504 INFO Zyntriva Authenticated user: admins
+2026-05-25 17:02:05,808 INFO Zyntriva User logged in: admins
+2026-05-25 17:07:05,594 INFO Zyntriva Authenticated user: admins
+2026-05-25 17:07:05,899 INFO Zyntriva User logged in: admins
+2026-05-25 17:15:05,876 INFO Zyntriva Authenticated user: admins
+2026-05-25 17:15:06,184 INFO Zyntriva User logged in: admins
+2026-05-25 17:17:34,211 INFO Zyntriva Authenticated user: admins
+2026-05-25 17:17:34,522 INFO Zyntriva User logged in: admins
+2026-05-25 18:27:18,652 INFO Zyntriva Authenticated user: admins
+2026-05-25 18:27:18,970 INFO Zyntriva User logged in: admins
+2026-05-25 18:27:25,301 INFO Zyntriva New account created: tester
+2026-05-25 18:27:25,311 INFO Zyntriva New account created: tester
+2026-05-25 18:27:25,312 INFO Zyntriva Authenticated user: tester
+2026-05-25 18:27:25,316 INFO Zyntriva New account created: tester
+2026-06-02 21:12:54,945 INFO Zyntriva New account created: tester
+2026-06-02 21:12:55,461 INFO Zyntriva New account created: tester
+2026-06-02 21:12:56,107 INFO Zyntriva Authenticated user: tester
+2026-06-02 21:12:56,655 INFO Zyntriva New account created: tester
+2026-06-02 21:18:34,823 INFO Zyntriva New account created: admin
+2026-06-02 21:18:46,022 INFO Zyntriva Authenticated user: admin
+2026-06-02 21:18:46,324 INFO Zyntriva User logged in: admin
